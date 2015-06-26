@@ -9,7 +9,7 @@ import org.apache.karaf.shell.table.ShellTable;
 
 import java.util.List;
 
-@Command(scope = "apachecon", name = "list-books", description = "List books")
+@Command(scope = "jbcn15", name = "list-books", description = "List books")
 public class ListBooks extends OsgiCommandSupport {
 
     private BookService bookService;

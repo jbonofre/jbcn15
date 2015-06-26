@@ -34,7 +34,7 @@ public class ViewBookServlet extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter writer = resp.getWriter();
         try {
-            writer.println("<html><head><title>ApacheCon</title></head><body>");
+            writer.println("<html><head><title>JBCN15</title></head><body>");
             writer.println("<h1>Books</h1>");
             writer.println("<table border=\"1\">");
             for (Book book : bookService.getAllBooks()) {

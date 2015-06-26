@@ -7,7 +7,7 @@ import org.apache.karaf.shell.commands.Command;
 import org.apache.karaf.shell.commands.Option;
 import org.apache.karaf.shell.console.OsgiCommandSupport;
 
-@Command(scope = "apachecon", name = "create-book", description = "Create and persist a new book")
+@Command(scope = "jbcn15", name = "create-book", description = "Create and persist a new book")
 public class CreateBook extends OsgiCommandSupport {
 
     @Option(name = "-i", aliases = { "--isbn" }, description = "The ISBN of the book", required = false, multiValued = false)
